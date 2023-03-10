@@ -1,0 +1,28 @@
+@import '../../styles/mixins.scss';
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  svg {
+    width: 120px;
+    max-width: 100%;
+  }
+  nav {
+    display: flex;
+    gap: 16px;
+
+  
+      a {
+        @include primaryFont();
+        font-weight: 500;
+        color: $primary-color;
+        text-decoration: none;
+        font-size: 1.25rem;
+        transition: color 0.2s;
+        &:hover {
+          text-decoration: underline;
+        }
+    }
+  }
+}

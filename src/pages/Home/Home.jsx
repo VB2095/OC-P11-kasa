@@ -1,5 +1,12 @@
 function Home() {
-  return <div>Page d'accueil 🏡</div>
+  return (
+<section className="main-container">
+  <h1>En cours de construction</h1>
+</section>
+)
+
+
+          
 }
 
 export default Home
