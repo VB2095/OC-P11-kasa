@@ -1,8 +1,11 @@
+import Banner from "../components/banner/banner"
+
 function About() {
     return (
-        <div>
-            <h1>A propos</h1>
-        </div>
+        <section className="main-container">
+            <Banner backgroundImage={require('../assets/bg_banner_about.jpg')}   
+      />
+        </section>
     );
 }
 

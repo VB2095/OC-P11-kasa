@@ -15,10 +15,10 @@ header {
   
       a {
         @include primaryFont();
+        font-size: clamp(16px, 3vw, 24px);
         font-weight: 500;
         color: $primary-color;
         text-decoration: none;
-        font-size: 1.25rem;
         transition: color 0.2s;
         &:hover {
           text-decoration: underline;
