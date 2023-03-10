@@ -6,7 +6,7 @@ function Home() {
   return (
   <section className="main-container">
       <Banner backgroundImage={require('../../assets/bg_banner_home.jpg')} 
-      titleBannerHome="Chez vous, partout et ailleurs"/>
+      titleBanner="Chez vous, partout et ailleurs"/>
       
       <div className="container-card">
         <Cards />

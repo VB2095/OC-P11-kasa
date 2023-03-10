@@ -1,10 +1,11 @@
 
 import data from '../../data/logements.json';
+import './cards.scss';
 function Cards () {
     return (
-        <div className="cards">
+        <div className="cards" >
             {data.map((location) => (
-                <div className="card" style={{backgroundImage: `url(${location.cover})`}}>
+                <div key={location.id} className="card" style={{backgroundImage: `url(${location.cover})`}}>
                     <h2>{location.title}</h2>
                 </div>
             ))}
