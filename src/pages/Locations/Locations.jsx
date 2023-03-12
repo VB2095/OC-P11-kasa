@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import Collapsible from "../../components/collapsible/collapsbile";
 import data from "../../data/logements.json";
 import "./locations.scss";
+import Error from "../../components/404/404";
 import Carousel from "../../components/carousel/carousel";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
@@ -11,7 +12,7 @@ function Locations() {
   const location = data.find((loc) => loc.id === id); // récupère la location correspondante à partir du fichier JSON
 
   if (!location) {
-    return <h2>Location not found</h2>;
+    return <Error />;
   }
   const maxRating = 5; // nombre d'étoiles maximum
   const rating = location.rating; // stocke le rating récupéré depuis le JSON
