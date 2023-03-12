@@ -2,17 +2,22 @@
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
     grid-gap: 16px;
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
 }
 .card {
     height: 290px;
     border-radius: 16px;
     background-position: center;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     color: #fff; 
     font-size: clamp(8px, 3vw, 12px);
     position: relative;
     margin: 10px;
+
     h2 {
         z-index: 1;
         padding: 12px;

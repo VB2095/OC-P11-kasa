@@ -5,6 +5,7 @@ import Footer from "./components/footer/footer";
 import Home from "./pages/Home/Home";
 import About from "./pages/about";
 import Error from "./components/404/404";
+import Locations from "./pages/Locations/Locations";
 import "./App.scss";
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
-                {/* <Route path="/location/:id" element={<Location />} /> */}
+                <Route path="/location/:id" element={<Locations />} />
                 <Route path="*" element={<Error />} />
             </Routes>
             <Footer />
