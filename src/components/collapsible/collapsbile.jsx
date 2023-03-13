@@ -15,8 +15,6 @@ function Collapsible(props) {
     
     <div className='collapsible'>
       
-      <FontAwesomeIcon icon="fa-solid fa-envelope" />
-      <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" />
       <div className='collapsible-title' onClick={toggleCollapsible}>
       <h2>{props.title}</h2>
       <button >
