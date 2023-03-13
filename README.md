@@ -31,3 +31,7 @@ Pour installer le projet, vous aurez besoin de [Node.js](https://nodejs.org/) in
     `yarn start`
 
 L'application devrait maintenant être accessible à l'adresse [http://localhost:3000](http://localhost:3000/) dans votre navigateur.
+
+
+## Lien vers le projet en ligne : 
+https://kasa.victorbross.fr/
