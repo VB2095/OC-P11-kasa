@@ -71,7 +71,7 @@ function Locations() {
       <div className="location-collapsible_container">
         <Collapsible title="Description" content={location.description} />
         <Collapsible
-          title="Equipements"
+          title="Équipements"
           content={location.equipments.join(", ")}
         />
       </div>
